@@ -1,0 +1,32 @@
+{
+  "name": "trading-bot-masterclass",
+  "version": "1.0.0",
+  "description": "Cryptocurrency arbitrage trading bot between Uniswap and Sushiswap",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@sushiswap/v3-sdk": "^1.0.0",
+    "@uniswap/v3-core": "^1.0.1",
+    "@uniswap/v3-periphery": "^1.4.3",
+    "@uniswap/v3-sdk": "^3.10.0",
+    "big.js": "^6.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.8.0",
+    "express": "^5.1.0",
+    "node-fetch": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "private": true,
+  "devDependencies": {
+    "@balancer-labs/v2-interfaces": "^0.4.0",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.2.0",
+    "hardhat": "^2.22.19"
+  }
+}
